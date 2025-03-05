@@ -75,7 +75,7 @@ class Main {
         NumberPrinter6a printer = new NumberPrinter6a(); 
         ThreadController controller = new ThreadController(n, printer); 
 
-        Thread zeroThread = new Thread(controller::zero);
+      Thread zeroThread = new Thread(controller::zero);
         Thread evenThread = new Thread(controller::even);
         Thread oddThread = new Thread(controller::odd);
 
